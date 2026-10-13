@@ -1,3 +1,7 @@
+//basic comparision 
+console.log(2+2);
+console.log(2%2); //etc etc
+
 console.log("2">1); //automatically converts 2 string to number but not recommended 
 console.log("02">1);
 
