@@ -36,6 +36,31 @@ const myFunction = function(){
 console.log(typeof bigNumber)
 //saare datatypes ke typeof yaad rakhna
 
+//lec 10 
+
+// Stack (Primitive) , Heap (Non-Primitive)
+let myName = "shreyas"
+
+let anotherName = myName // a copy of myname is stored in anotherName
+anotherName = "hiroshima" //the copy is getting changed not actual Myname
+
+console.log(anotherName)
+console.log(myName)//this is primitive (basically works like call by value)
+
+let userOne = {
+    userEmail: "shreyas@gmail.com",
+    userAddress: "moti bagh"
+}
+
+let userTwo = userOne// a reference of userOne is copied here so
+//if something is changed in this actual value is changed
+
+userTwo.userEmail = "hiroshima@gmail.com"
+
+console.log(userOne.userEmail)
+console.log(userTwo.userEmail)//Non primitive (works like call by reference)
+
+
 
 
 
